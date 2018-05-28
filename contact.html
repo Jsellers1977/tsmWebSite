@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Social Movement</title>
+</head>
+
+<body class="b1">
+
+  <!-- Header-->
+  <header id="main" class="main-header white">
+    <div class="main-nav navbar-fixed">
+      <nav class="grey darken-3 nav-wrapper z-depth-0">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-nav" class="button-collapse show-on-large">
+            <i class="material-icons">menu</i>
+          </a>
+
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="social.html">Social Media</a>
+            </li>
+            <li>
+              <a href="web.html">Web Design</a>
+            </li>
+            <li>
+              <a href="design.html">Graphic Design</a>
+            </li>
+            <li>
+              <a href="why.html">Why Us?</a>
+            </li>
+            <li class="active">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-nav">
+      <li>
+        <a href="index.html">
+          <i class="material-icons">home</i>Home</a>
+      </li>
+      <li>
+        <a href="social.html">
+          <i class="material-icons">people</i>Social Media</a>
+      </li>
+      <li>
+        <a href="web.html">
+          <i class="material-icons">computer</i>Web Design</a>
+      </li>
+      <li>
+        <a href="why.html">
+          <i class="material-icons">business</i>Why Us?</a>
+      </li>
+      <li>
+        <a href="design.html">
+          <i class="material-icons">gradient</i>Graphic Design</a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <i class="material-icons">call</i>Contact</a>
+    </ul>
+    </nav>
+    <a href="index.html" class="brand-logo responsive-img">
+      <img src="img/gallery/move.png ">
+    </a>
+  </header>
+
+  <!--Section Dark Grey-->
+  <section class="f1 section section-dark-grey grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact" class="f1 section section-contact center scrollspy grey lighten-2">
+    <div id="googlemap"></div>
+    <h1 class="ff">[Longitude = 39.6724348 Latitude = -104.9899956]</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 offset-m6">
+          <div class="ff card-panel z-depth-5">
+            <h4>Contact Us</h4>
+            <div id="form-messages"></div>
+            <form id="ajax-contact" method="POST" action="mailer.php">
+              <div class="input-field">
+                <input type="text" id="name" placeholder="Name" required>
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field">
+                <input type="email" id="email" placeholder="Email" required>
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="phone" placeholder="Phone Number">
+                <label for="phone">Phone</label>
+              </div>
+              <div class="input-field">
+                <textarea class="materialize-textarea" id="message" placeholder="Message" required></textarea>
+                <label for="message">Message</label>
+              </div>
+              <input type="submit" value="Submit" class="btn orange darken-3 waves-effect waves-effect-light">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Compass Section-->
+  <section class="f1 section section-compass center ">
+    <div>
+      <canvas class="compass canvas" width="600px" height="450px"></canvas>
+      <h1 class="orange-text darken-3">[Longitude = 39.6724348 Latitude = -104.9899956]</h1>
+    </div>
+  </section>
+
+  <!-- floating icons-->
+  <div class=" fixed-action-btn ">
+    <a class="btn-floating btn-large pulse purple ">
+      <i class="fa fa-mobile-alt "></i>
+    </a>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/TheSocialMovement/ " target="_blank " class="btn-floating pink darken-4">
+          <i class="fab fa-facebook-f "></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/thesocialmovement/ " target="_blank " class="btn-floating lime accent-3">
+          <i class="fab fa-instagram "></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/+Thesocialmovement " target="_blank " class="btn-floating cyan accent-4">
+          <i class="fab fa-google-plus-g "></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/SocialMVMT " target="_blank " class="btn-floating  yellow accent-2">
+          <i class="fab fa-twitter "></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/the-social-movement-5728b3161 " target="_blank " class="btn-floating teal">
+          <i class="fab fa-linkedin-in "></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!--Footer-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">The Social Movement</h5>
+          <p class="grey-text text-lighten-4">
+            <a class="white-text" href="https://www.google.com/maps/place/2435+S+Broadway,+Denver,+CO+80210/@39.6724348,-104.9899903,17z/data=!3m1!4b1!4m5!3m4!1s0x876c7fcc9d3316c7:0xf273a60f1c14fc74!8m2!3d39.6724307!4d-104.9878016 ">2435 S Broadway</br>Denver, CO 80210</br>
+            </a>
+            <a class="white-text" href="tel:3035572399 ">303.557.2399</a>
+            <a class="white-text " href="email@info@thesocialmovement.com">inbox@thesocialmovement.com </a>
+          </p>
+        </div>
+        <div class="col s12 m6">
+          <h5 class="white-text ">Join the Movement</h5>
+          <nav class="transparent wrapper z-depth-0 footer">
+            <div class="footnav">
+              <ul>
+                <li>
+                  <a class="grey-text text-lighten-3 tooltipped " data-position="left " data-tooltip="I am the Home Page!
+      " href="index.html ">
+                    <i class="medium material-icons ">home</i>
+                  </a>
+                </li>
+                <li>
+                  <a class="grey-text text-lighten-3 tooltipped " data-position="bottom " data-tooltip="I am the Social
+      Marketing Page! " href="social.html ">
+                    <i class="medium material-icons ">people</i>
+                  </a>
+                </li>
+                <li>
+                  <li>
+                    <a class="grey-text text-lighten-3 tooltipped " data-position="top " data-tooltip="I am the Web Design
+      Page! " href="web.html ">
+                      <i class="medium material-icons ">computer</i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="grey-text text-lighten-3 tooltipped " data-position="bottom " data-tooltip="I am the Why
+      Us Page! " href="us.html ">
+                      <i class="medium material-icons ">business</i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="grey-text text-lighten-3 tooltipped " data-position="top " data-tooltip="I am the Graphic
+      Design Page! " href="design.html ">
+                      <i class="medium material-icons ">gradient</i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="grey-text text-lighten-3 tooltipped " data-position="right " data-tooltip="I am a the Contact
+      Page! " href="contact.html ">
+                      <i class="medium material-icons ">call</i>
+                    </a>
+                  </li>
+              </ul>
+          </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright ">
+      <div class="container ">
+        © 2018 The Social Movement
+        <a class="white-text right scrollspy" href="#main">
+          <i class="material-icons left">arrow_upward</i>
+          Elevator to the Top!
+        </a>
+      </div>
+    </div>
+
+    <!--Social Sites-->
+    <section class="section section-social">
+      <div class="social center ">
+        <a href="https://www.facebook.com/TheSocialMovement/ " target="_blank ">
+          <i class="fab fa-facebook-f fa-4x "></i>
+        </a>
+        <a href="https://twitter.com/SocialMVMT " target="_blank ">
+          <i class="fab fa-twitter fa-4x "></i>
+        </a>
+        <a href="https://www.instagram.com/thesocialmovement/ " target="_blank ">
+          <i class="fab fa-instagram fa-4x "></i>
+        </a>
+        <a href="https://plus.google.com/+Thesocialmovement " target="_blank ">
+          <i class="fab fa-google-plus-g fa-4x "></i>
+        </a>
+        <a href="https://www.linkedin.com/in/the-social-movement-5728b3161 " target="_blank ">
+          <i class="fab fa-linkedin-in fa-4x "></i>
+      </div>
+    </section>
+  </footer>
+
+
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript " src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
+  <script type="text/javascript " src="js/materialize.min.js "></script>
+  <script type="text/javascript " src="js/main.min.js "></script>
+  <script type="text/javascript " src="js/social.js "></script>
+  <script type="text/javascript " src="js/app.js "></script>
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+
+
+      // Init Sidenav
+      $('.button-collapse').sideNav();
+
+      // Init Scrollspy
+      $('.scrollspy').scrollSpy();
+
+      // ScrollFire
+      const options = [
+        {
+          selector: '.main-text', offset: 0, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        }
+      ];
+
+      Materialize.scrollFire(options);
+
+      const position = [39.6724348, -104.9899956];
+      const centerPosition = [39.6715925, -104.9873242];
+
+      function showGoogleMaps() {
+        // Map positions
+        const latLng = new google.maps.LatLng(position[0], position[1]);
+        const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
+
+        // Map options
+        const mapOptions = {
+          zoom: 12,
+          streetViewControl: false,
+          scaleControl: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: centerLatLng
+        }
+
+        // Create map
+        map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
+
+        // Show Marker
+        marker = new google.maps.Marker({
+          position: latLng,
+          map: map,
+          draggable: false,
+          animation: google.maps.Animation.DROP
+        });
+      }
+
+      // Maps event
+      google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+
+
+
+    });
+  </script>
+</body>
+
+</html>
